@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-font-color: #9DC8FE;
+    --secondary-font-color:#D05857;
+}
+
+body{
+    background: #5C5447;
+    padding: 12px 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    color: white;
+}
+h1{
+    color: var(--primary-font-color);
+    letter-spacing: 0.55px;
+    font-size: 2.5em;
+}
+
+.description{
+    margin-top: 36px;
+    margin-bottom: 12px;
+}
+
+.title{
+    margin-top: 45px;
+    margin-bottom: 4px;
+    text-transform: capitalize;
+    font-size: 1.8em;
+    color: var(--primary-font-color);
+}
+
+ul>li{
+    line-height: 1.6;
+}
+.italic_description{
+    font-style: italic;
+    font-size: 0.8em;
+    margin-bottom: 12px;
+}
+ol>li>a{
+    color: var(--secondary-font-color);
+    font-weight: 500;
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ol>li>a::after{
+    content: "(IMDB)";
+}
+
+.mood_container{
+    margin-top: 20px;
+    height: 120px;
+    display: flex;
+    gap: 24px;
+}
+
+.mood_container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mood_container  img{
+    height: 100%;
+}

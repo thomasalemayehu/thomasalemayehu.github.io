@@ -44,9 +44,14 @@ ul>li{
 }
 ol>li>a{
     color: var(--secondary-font-color);
+    text-decoration: none;
     font-weight: 500;
     font-size: 1em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ol>li>a:hover{
+    text-decoration: underline;
 }
 
 ol>li>a::after{

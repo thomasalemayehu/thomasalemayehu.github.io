@@ -81,12 +81,8 @@ ol>li>a::after{
 footer{
     display: flex;
     justify-content: space-between;
-    padding: 12px;
     background: grey;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    margin-top: 32px;
 }
 
 .footer_name{

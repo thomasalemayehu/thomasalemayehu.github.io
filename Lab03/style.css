@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+:root{
+    --primary-font-color: #292929;
+    --primary-color:#F3F3F3;
+}
+body{
+    background: var(--primary-color);
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:4px 30px 4px 8px;
+}
+
+.header img{
+    height: 100%;
+}
+
+.info-section{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.info-section span{
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.info-section div{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    font-family:Times, serif;
+    color: var( --primary-font-color);
+}
+
+.navigation-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    color: var( --primary-font-color);
+    font-size: 15px;
+}
+
+.hero-section{
+    width: 100%;
+    height: 200px;
+    background-color: #115156;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}
+
+.main-section{
+    height: 100%;
+    padding-left: 5%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+.left-section{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid grey;
+}
+
+.login-form{
+    width: 75%;
+    padding: 0px 30% 0px 0px;
+}
+
+.login-form h3{
+    font-size: 28px;
+    letter-spacing: 0.25px;
+    margin-bottom: 18px;
+}
+
+.login-form .description{
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 18px;
+}
+
+.login-form .azure-logo{
+    background-color: white;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 12px;
+}
+
+.azure-logo img{
+    height: 50px;
+}
+
+.section-breaker{
+    font-size: 12px;
+    color: var(--primary-font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.section-breaker p {
+     color: grey;
+}
+
+.section-breaker span{
+    flex-grow: 1;
+    border: dotted 0.25px grey;
+}
+
+.form-input-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+label{
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: grey;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+input[type="text"]{
+    height: 36px;
+    width: 380px;
+    outline: none;
+    border: none;
+}
+
+
+.row-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 12px;
+    color: grey;
+}
+
+.checkbox-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.checkbox-wrapper p{
+     font-size: 15px;
+    color: grey;
+}
+
+
+.row-wrapper a {
+    text-decoration: none;
+     font-size: 15px;
+}
+
+
+.button{
+    display: grid;
+    place-items: center;
+    margin-top: 24px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    outline: none;
+    box-shadow: none;
+    font-size: 18px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.login-button{    
+    padding: 12px 0;
+}
+
+.right-section{
+    padding-left: 10%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.right-section > div{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.right-section a {
+    text-decoration: none;
+    color: blue;
+}
+
+.submit-button{
+    padding: 8px 12px;
+    font-size: 16px;
+    width: fit-content;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content: end;
+    padding:12px 4px;
+    color: var(--primary-font-color);
+    font-size: 14px;
+}

@@ -75,3 +75,8 @@ footer{
 .footer_name{
     font-weight: bold;
 }
+
+
+footer img{
+    height: 35px;
+}

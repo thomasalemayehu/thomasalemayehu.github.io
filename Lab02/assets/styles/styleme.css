@@ -66,6 +66,26 @@ ol>li>a::after{
     justify-content: center;
 }
 
-.mood_container  img{
-    height: 100%;
+.mood_container img{
+    height: 120px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background: grey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer_name{
+    font-weight: bold;
+}
+
+
+footer img{
+    height: 35px;
 }

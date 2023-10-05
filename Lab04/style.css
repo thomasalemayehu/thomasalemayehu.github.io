@@ -1,0 +1,11 @@
+nav {
+  background-color: #33a6e8;
+}
+
+.border-nav {
+  border-right: solid 2px white;
+  margin-left: 60px;
+}
+.sign-out-button{
+    background-color: #fbfbfc
+}

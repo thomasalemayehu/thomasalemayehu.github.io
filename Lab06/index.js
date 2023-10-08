@@ -12,7 +12,7 @@ let books = [
 
 function addBook(title,author,libraryID){
     let newBook = {title,author,libraryID};
-    books.push(newBook);z
+    books.push(newBook);
     return newBook;
 }
 
